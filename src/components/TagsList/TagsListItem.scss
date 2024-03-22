@@ -1,0 +1,16 @@
+@import "src/styles/variables";
+@import "src/styles/mixins";
+
+.tags-list-item {
+  @include rounded-button;
+  padding: 12px;
+  cursor: pointer;
+  background-color: $white-color;
+  color: $black-color;
+}
+
+.tags-list-item.active {
+  background-color: $primary-color;
+  color: $white-color;
+  @include fade-in;
+}

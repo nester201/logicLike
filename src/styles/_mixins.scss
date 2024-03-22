@@ -1,0 +1,26 @@
+@import 'variables';
+
+@mixin center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+};
+
+@mixin rounded-button {
+  border-radius: $base-border-radius;
+};
+
+@mixin fade-in {
+  opacity: 0;
+  animation: fadeIn 0.3s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+};

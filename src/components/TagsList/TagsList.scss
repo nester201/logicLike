@@ -1,0 +1,10 @@
+@import "src/styles/variables";
+
+.tags-list-container {
+  position: sticky;
+  top: 20px;
+  width: 264px;
+  padding: 12px;
+  border: 1px solid $border-color;
+  border-radius: $base-border-radius;
+}

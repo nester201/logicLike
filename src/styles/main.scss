@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'mixins';
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: $base-font-size;
+  font-weight: $base-weight;
+  background-color: $white-color;
+  margin: 0;
+}
+
+.course-page {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 24px;
+}

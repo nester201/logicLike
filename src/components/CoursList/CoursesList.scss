@@ -1,0 +1,13 @@
+.courses-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  flex: 1;
+}
+
+@media screen and (max-width: 776px) {
+  .courses-list-container {
+    flex-direction: column;
+  }
+}
+
